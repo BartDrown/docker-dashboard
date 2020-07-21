@@ -4,7 +4,8 @@
   "description": "Simple node app for creating docker containers",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "tsc && node dist/app.js",
+    "serve": "npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Bartosz Jakubowski",
@@ -13,7 +14,6 @@
     "docker-cli-js": "^2.7.1"
   },
   "devDependencies": {
-    "husky": "^4.2.5",
     "tslint": "^6.1.2",
     "typescript": "^3.9.7"
   }
