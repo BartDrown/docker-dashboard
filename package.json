@@ -11,5 +11,10 @@
   "license": "MIT",
   "dependencies": {
     "docker-cli-js": "^2.7.1"
+  },
+  "devDependencies": {
+    "husky": "^4.2.5",
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.7"
   }
 }
