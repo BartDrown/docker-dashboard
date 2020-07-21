@@ -4,17 +4,18 @@
   "description": "Simple node app for creating docker containers",
   "main": "index.js",
   "scripts": {
-    "start": "tsc && node dist/app.js",
-    "serve": "npm start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nps",
+    "test": "nps test"
   },
   "author": "Bartosz Jakubowski",
   "license": "MIT",
   "dependencies": {
-    "docker-cli-js": "^2.7.1"
+    "docker-cli-js": "^2.7.1",
+    "jest": "^26.1.0",
+    "nps-utils": "^1.7.0"
   },
   "devDependencies": {
-    "tslint": "^6.1.2",
+    "eslint": "^7.5.0",
     "typescript": "^3.9.7"
   }
 }

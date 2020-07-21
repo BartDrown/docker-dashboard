@@ -1,9 +1,6 @@
-console.log("test");
-var dockerCLI = require('docker-cli-js');
-var DockerOptions = dockerCLI.Options;
-var Docker = dockerCLI.Docker;
+import { Core } from './core/core';
+var application = new Core();
 
-const test = "test";
+application.run();
 
-console.log(test);
-console.log(Docker);
+application.close();
